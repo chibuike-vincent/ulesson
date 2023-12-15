@@ -2,7 +2,7 @@
 // service-worker.js
 
 const CACHE_NAME = 'my-video-cache';
-const isDevelopment = process.env.NODE_ENV === 'development';
+// const isDevelopment = process.env.NODE_ENV === 'development';
 
 
 self.addEventListener('install', (event) => {
@@ -14,10 +14,10 @@ self.addEventListener('install', (event) => {
 });
 
 self.addEventListener('fetch', (event) => {
-  if (isDevelopment) {
-    event.respondWith(fetch(event.request));
-    return;
-  }
+  // if (isDevelopment) {
+  //   event.respondWith(fetch(event.request));
+  //   return;
+  // }
   event.respondWith(
     caches.match(event.request).then((response) => {
       if (!response) {
