@@ -7,8 +7,7 @@ import 'react-tabs/style/react-tabs.css';
 import './ModalWithTab.css'
 import Collapsible from './Collapsible'
 import vidIcon from '../../images/Group 40.png'
-import { RiArrowDropDownLine } from "react-icons/ri";
-import { RiArrowDropUpLine } from "react-icons/ri";
+
 import { IoIosArrowRoundBack } from "react-icons/io";
 
 Modal.setAppElement('#root');
@@ -101,7 +100,6 @@ const ModalWithTabs = ({ isOpen, closeModal, lesson }) => {
                       }
 
                     </Collapsible>
-                    {!isCollapsible ? <RiArrowDropDownLine style={{ width: 33, height: 33 }} /> : <RiArrowDropUpLine style={{ width: 33, height: 33 }} />}
                   </div>
                   <div className='tabPanel_divider'></div>
                 </>

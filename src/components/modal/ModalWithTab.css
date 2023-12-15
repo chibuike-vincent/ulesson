@@ -97,3 +97,16 @@
   margin-top: -10px;
   color: rgb(124, 123, 123);
 }
+
+.collapsible_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.collapse {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
