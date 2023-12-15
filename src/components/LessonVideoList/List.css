@@ -1,0 +1,66 @@
+.list_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0px 0px 0px;
+}
+
+.list_search_container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 50px;
+}
+
+.list_search {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.video_resume {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #ea7052;
+  border-radius: 7px;
+  color: #fff;
+  line-height: 5px;
+  padding: 15px;
+}
+
+.list_card_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.list_card {
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  padding-top: 10px;
+}
+
+.card_title {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 0.5px;
+}
+
+.lesson_total {
+  color: rgb(124, 123, 123);
+}

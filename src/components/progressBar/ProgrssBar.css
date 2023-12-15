@@ -1,0 +1,9 @@
+.progress_container {
+  width: 90%;
+}
+
+.progressBar {
+  height: 10px;
+  width: 100%;
+  accent-color: #e9461d !important;
+}

@@ -1,0 +1,10 @@
+#dropdown {
+  background-color: rgb(44, 42, 42);
+  color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+#dropdown:focus {
+  outline: none;
+}

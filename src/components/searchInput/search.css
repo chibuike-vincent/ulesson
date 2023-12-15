@@ -1,0 +1,22 @@
+.search_container {
+  width: 100%;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  padding: 4px;
+  border-radius: 4px;
+  box-shadow: 1px rgb(87, 86, 86);
+}
+
+#search {
+  width: 100%;
+  padding: 7px;
+  border: none;
+}
+
+#search:focus {
+  outline: none;
+}
